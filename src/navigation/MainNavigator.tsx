@@ -7,6 +7,7 @@ const Stack=createNativeStackNavigator()
 const MainNavigator :FC= () => {
   return (
     <Stack.Navigator 
+    initialRouteName='SplashScreen'
     screenOptions={()=>({
       headerShown:false
     })}
